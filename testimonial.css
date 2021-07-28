@@ -6,11 +6,7 @@
 
 /* testimonial css starts here */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@700&family=Roboto:wght@700&display=swap");
-/* 
-font-family: 'Inter', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Roboto', sans-serif;
-*/
+
 #testimonials {
   height: 800px;
   padding-top: 120px;
@@ -80,7 +76,6 @@ font-family: 'Roboto', sans-serif;
   font-size: 22px;
   text-align: center;
 }
-/* swipwe css  */
 .testimonial-container {
   position: relative;
   width: 1214px;
