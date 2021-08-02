@@ -4,76 +4,92 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Link Swiper's CSS -->
     <link
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
-
-    <link rel="stylesheet" href="./testimonial.css" />
-    <title>Testimonial Slider</title>
+    <link rel="stylesheet" href="./testimonials.css" />
+    <title>Testimonials section</title>
   </head>
   <body>
     <section id="testimonials">
-      <h2 id="testimonials-heading">Customers <span>Love Us</span></h2>
-      <div class="testimonial-container">
-        <div class="swiper-container myTestmonialSwiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide testimonial">
-              <div class="testimonial-user">
-                <img src="./images/testimonial-user.png" alt="" />
-                <h3 class="testimonial-name">Anamika</h3>
-                <p class="testimonial-user-location">Rishikesh</p>
-              </div>
-              <div class="testimonial-review">
+      <div id="testimonial-main">
+        <h2 id="testimonials-heading">Our Customers <span>Love Us !</span></h2>
+
+        <div class="testimonial-container">
+          <div class="swiper-container myTestimonialSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide testimonial">
+                <div class="testimonial-ratings">
+                  <img src="./images/testimonial-star_full.svg" alt="" />
+                  <img src="./images/testimonial-star_full.svg" alt="" />
+                  <img src="./images/testimonial-star_full.svg" alt="" />
+                  <img src="./images/testimonial-star_full.svg" alt="" />
+                  <img src="./images/testimonial-star_half.svg" alt="" />
+                </div>
                 <p>
                   Excellent teachers with knowledge in a wide variety of Asanas
                   and techniques. I am highly motivated by and inspired by the
                   quality of teaching despite the online medium.
                 </p>
+                <div class="testimonial-user-profile">
+                  <h4>Anamika|</h4>
+                  <p>Rishikesh</p>
+                </div>
               </div>
-            </div>
-            <div class="swiper-slide testimonial">
-              <div class="testimonial-user">
-                <img src="./images/testimonial-user.png" alt="" />
-                <h3 class="testimonial-name">Anamika</h3>
-                <p class="testimonial-user-location">Rishikesh</p>
-              </div>
-              <div class="testimonial-review">
+              <div class="swiper-slide testimonial">
+                <div class="testimonial-ratings">
+                  <img src="./images/testimonial-star_full.svg" alt="" />
+                  <img src="./images/testimonial-star_full.svg" alt="" />
+                  <img src="./images/testimonial-star_full.svg" alt="" />
+                  <img src="./images/testimonial-star_full.svg" alt="" />
+                  <img src="./images/testimonial-star_half.svg" alt="" />
+                </div>
                 <p>
                   Excellent teachers with knowledge in a wide variety of Asanas
                   and techniques. I am highly motivated by and inspired by the
                   quality of teaching despite the online medium.
                 </p>
+                <div class="testimonial-user-profile">
+                  <h4>Anamika|</h4>
+                  <p>Rishikesh</p>
+                </div>
               </div>
-            </div>
-            <div class="swiper-slide testimonial">
-              <div class="testimonial-user">
-                <img src="./images/testimonial-user.png" alt="" />
-                <h3 class="testimonial-name">Anamika</h3>
-                <p class="testimonial-user-location">Rishikesh</p>
-              </div>
-              <div class="testimonial-review">
+              <div class="swiper-slide testimonial">
+                <div class="testimonial-ratings">
+                  <img src="./images/testimonial-star_full.svg" alt="" />
+                  <img src="./images/testimonial-star_full.svg" alt="" />
+                  <img src="./images/testimonial-star_full.svg" alt="" />
+                  <img src="./images/testimonial-star_full.svg" alt="" />
+                  <img src="./images/testimonial-star_half.svg" alt="" />
+                </div>
                 <p>
                   Excellent teachers with knowledge in a wide variety of Asanas
                   and techniques. I am highly motivated by and inspired by the
                   quality of teaching despite the online medium.
                 </p>
+                <div class="testimonial-user-profile">
+                  <h4>Anamika|</h4>
+                  <p>Rishikesh</p>
+                </div>
               </div>
             </div>
           </div>
+          <div class="testimonial-controls">
+            <img
+              src="./images/testimonial-arrow.svg"
+              class="swiper-button-prev"
+              alt=""
+            />
+            <img
+              src="./images/testimonial-arrow.svg"
+              class="swiper-button-next"
+              alt=""
+            />
+          </div>
         </div>
-        <img
-          src="./images/testimonial-arrow.png"
-          class="swiper-button-next"
-          alt=""
-        />
-        <img
-          src="./images/testimonial-arrow.png"
-          class="swiper-button-prev"
-          alt=""
-        />
       </div>
+      <img src="./images/testimonials-images.png" alt="" />
     </section>
 
     <!-- Swiper JS -->
@@ -81,7 +97,7 @@
 
     <!-- Initialize Swiper -->
     <script>
-      var swiper = new Swiper(".myTestmonialSwiper", {
+      var swiper = new Swiper(".myTestimonialSwiper", {
         spaceBetween: 20,
         // loop:true,
         navigation: {
